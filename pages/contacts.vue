@@ -2,9 +2,7 @@
   <div>
     <v-container class="grey">
       <v-row>
-        <v-banner>
-          <h1>связаться с нами</h1>
-        </v-banner>
+        <h1>Связаться с нами</h1>
       </v-row>
       <v-row>
         <h2>Наши контакты</h2>
