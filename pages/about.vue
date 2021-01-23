@@ -1,20 +1,13 @@
 <template>
-  <div>
-    <v-container class="grey">
-      <v-row>
-
-          <h1>Про нас</h1>
-
-      </v-row>
-      <v-row>
-        <h2>Наши контакты</h2>
-      </v-row>
-    </v-container>
-  </div>
+  <div><Team /></div>
 </template>
 
 <script>
+import Team from '../components/about/Team'
+
 export default {
-  components: {},
+  components: {
+    Team,
+  },
 }
 </script>

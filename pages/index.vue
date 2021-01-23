@@ -1,16 +1,15 @@
 <template>
-  <v-container class="grey">
-    <v-row>
-      <h1>Главная</h1>
-    </v-row>
-    <v-row>
-      <h2>Тут данные</h2>
-    </v-row>
-  </v-container>
+  <div>
+    <Main />
+  </div>
 </template>
 
 <script>
+import Main from '../components/index/Main'
+
 export default {
-  components: {},
+  components: {
+    Main,
+  },
 }
 </script>
